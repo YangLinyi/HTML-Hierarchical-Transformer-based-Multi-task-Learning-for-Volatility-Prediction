@@ -13,7 +13,7 @@ for i in range(len(text_all)):
     text_all_embs.append(text_embs)
     
 # Padding
-dim = 1024
+dim = 1024 # Depends on the dimensions of your selected token-level pretrained model
 b = np.zeros([len(text_all_embs),len(max(text_all_embs,key = lambda x: len(x))),dim]) 
 for i,j in enumerate(text_all_embs): 
     b[i][0:len(j),:] = j 
