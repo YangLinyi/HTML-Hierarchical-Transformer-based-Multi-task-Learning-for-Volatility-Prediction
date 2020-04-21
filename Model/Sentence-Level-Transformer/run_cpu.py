@@ -48,7 +48,7 @@ class Dataset(data.Dataset):
     
 def go(arg):
     """
-    Creates and trains a basic transformer for the IMDB sentiment classification task.
+    Creates and trains a basic transformer for the volatility regression task.
     """
     LOG2E = math.log2(math.e)
     NUM_CLS = 1
