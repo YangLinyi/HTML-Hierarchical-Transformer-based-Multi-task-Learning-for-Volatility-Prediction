@@ -6,4 +6,5 @@ We put two options here: 1) Bert-as-a-service 2)Hugging Face Transformers.
 
 For the sentence-level transformer, we provide a customized lightweight transformer that can be easily adapt to either classification or regression problems.
 
+Also, we provide the lightweight single-task regression code.
 
