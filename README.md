@@ -20,4 +20,4 @@ The token-level transformer relies on the pre-trained transformers, which can be
 <br>The raw dataset of the earnings call can be found from [ACL-19, Qin and Yang](https://github.com/GeminiLn/EarningsCall_Dataset).
 
 ## Model
-We pride our code and dataset used for this paper. The HTML model consists with token-level transformer and sentence-level transformer that are contained in the Model path. Also, we provide our experimental code of both Multi-task settings and Single-task settings under the Model folder.
+We provide our code and data used for the paper mentioned above. The HTML model consists with token-level transformer and sentence-level transformer that are contained in the Model path. Also, we provide our experimental code of both Multi-task settings and Single-task settings under the Model folder.
