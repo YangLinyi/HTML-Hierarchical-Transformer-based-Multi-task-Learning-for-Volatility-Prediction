@@ -21,3 +21,6 @@ The token-level transformer relies on the pre-trained transformers, which can be
 
 ## Model
 We provide our code and data used for the paper mentioned above. The HTML model consists with token-level transformer and sentence-level transformer that are contained in the Model path. Also, we provide our experimental code of both Multi-task settings and Single-task settings under the Model folder.
+
+## Contact
+Any questions or queries feel free to email me at linyi.yang@insight-centre.org -- Thanks for reading.
