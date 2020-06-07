@@ -69,7 +69,7 @@ def go(arg):
         train_label_b, test_label_b = train_test_split(LABEL_emb_b, test_size=0.2)
         
         training_set = Dataset(train, train_label, train_label_b)
-        vak_set = Dataset(test, test_label, test_label_b)
+        val_set = Dataset(test, test_label, test_label_b)
         
     else:
         data, _ = train_test_split(TEXT_emb, test_size=0.2)
