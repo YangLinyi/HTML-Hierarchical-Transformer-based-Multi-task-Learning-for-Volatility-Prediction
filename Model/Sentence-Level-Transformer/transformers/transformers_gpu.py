@@ -135,13 +135,13 @@ class RTransformer(nn.Module):
 
     def __init__(self, emb, heads, depth, seq_length, num_tokens, num_classes, max_pool=True, dropout=0.0):
         """
-        :param emb: Embedding dimension
-        :param heads: nr. of attention heads
-        :param depth: Number of transformer blocks
-        :param seq_length: Expected maximum sequence length
-        :param num_tokens: Number of tokens (usually words) in the vocabulary
-        :param num_classes: Number of classes.
-        :param max_pool: If true, use global max pooling in the last layer. If false, use global
+        emb: Embedding dimension
+        heads: nr. of attention heads
+        depth: Number of transformer blocks
+        seq_length: Expected maximum sequence length
+        num_tokens: Number of tokens (usually words) in the vocabulary
+        num_classes: Number of classes.
+        max_pool: If true, use global max pooling in the last layer. If false, use global
                          average pooling.
         """
         super().__init__()
