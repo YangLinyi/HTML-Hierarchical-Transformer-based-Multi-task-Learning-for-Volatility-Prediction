@@ -7,7 +7,7 @@ Linyi Yang, Tin Lok James Ng, Barry Smyth, Ruihai Dong. HTML: Hierarchical Trans
 
     @inproceedings{yang2020html,
     title={HTML: Hierarchical Transformer-based Multi-task Learning for Volatility Prediction},
-    author={Yang, Linyi and Ng, Tin Lok James and Smyth, Barry and Dong, Riuhai},
+    author={Yang, Linyi and Ng, Tin Lok James and Smyth, Barry and Dong, Ruihai},
     booktitle={Proceedings of The Web Conference 2020},
     pages={441--451},
     year={2020}
