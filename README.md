@@ -15,7 +15,7 @@ Linyi Yang, Tin Lok James Ng, Barry Smyth, Ruihai Dong. HTML: Hierarchical Trans
     
 ## Dataset    
 The token-level transformer relies on the pre-trained transformers, which can be downloed from [here](https://huggingface.co/).
-<br>The raw dataset of the earnings call can be found from [ACL-19, Qin and Yang](https://github.com/GeminiLn/EarningsCall_Dataset).
+<br>The raw dataset of the earnings call can be found from [[Qin and Yang, ACL-19]](https://github.com/GeminiLn/EarningsCall_Dataset).
 
 ## Model
 We provide our code and data used for the paper. Our HTML model consists with token-level transformer and sentence-level transformer which can be found at the Model path. Also, we provide our experimental code using Multi-task settings and Single-task settings respectively.
