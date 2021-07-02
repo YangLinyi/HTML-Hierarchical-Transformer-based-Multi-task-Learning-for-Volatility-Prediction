@@ -9,7 +9,7 @@ for i in range(len(text_all)):
     text = text_all[i].split("\n")
     sentence_len.append(len(text))
     text_embs = bc.encode(text)
-    text_embs = np.concatenate((text_embs,np.array([np.array(past_volatility_all[i])]*len(text_embs))),axis=1)
+    #text_embs = np.concatenate((text_embs,np.array([np.array(past_volatility_all[i])]*len(text_embs))),axis=1)
     text_all_embs.append(text_embs)
     
 # Padding
