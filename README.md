@@ -2,7 +2,7 @@
 
 If you find this repository helps your research, please cite our following paper:
 
-Yang, Linyi and Li, Jiazheng and Dong, Ruihai and Zhang, Yue and Smyth, Barry. NumHTML: Numeric-Oriented Hierarchical Transformer Model for Multi-task Financial Forecasting. 
+Linyi Yang and Jiazheng Li and Ruihai Dong and Yue Zhang and Barry Smyth. NumHTML: Numeric-Oriented Hierarchical Transformer Model for Multi-task Financial Forecasting. 
 Proceedings of the AAAI Conference on Artificial Intelligence 2022.
 
     @inproceedings{yang2022numhtml,
